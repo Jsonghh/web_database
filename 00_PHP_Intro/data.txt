@@ -1,0 +1,5 @@
+999583271,salazar,19-Oct-07,3,85000,poor
+999551241,baker,22-Feb-84,4,105000,good
+999551252,chu,28-Mar-01,2,64000,good
+999551271,caroll,13-Jun-08,3,73000,poor
+999551255,anderson,15-Jan-05,1,42000,excellent
