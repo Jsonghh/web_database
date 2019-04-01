@@ -1,8 +1,8 @@
 # Web Database & REST APIs
 
 ### Home Page and Database Demo
-![homepage](https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/homepage.png)
-<br>
+<img src="https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/homepage.png" width="630" height="700" alt="homepage"/><br>
+
 ![database](https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/database_demo.png)
 
 ### Create tables in MySQL
