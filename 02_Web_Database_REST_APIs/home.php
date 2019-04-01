@@ -129,20 +129,23 @@
 		}
 	}
 		
-		// build the div for cheeps searching result
-		echo "<div class='seres'>";
-		//  query from the database
-		echo "<h2>Recent cheeps:</h2><br>";
-		echo "<div class='secontent'>";
+	// build the div for cheeps searching result
+	echo "<div class='seres'>";
+	//  query from the database
+	echo "<h2>Recent cheeps:</h2><br>";
+	if (isset($_SESSION['user_id'])){	
+ 		echo "<div class='secontent'>";
 		if ($result = mysqli_query($db, $query)) {
-                        while ($row = mysqli_fetch_assoc($result)){
-                        	echo "<p class='commentname'>".$row['firstname']." ".$row['lastname']."</p>".
-				     "<p class='commentsuffix'> @".$row['username']." - ".$row['created_date']."</p>".
-			     	     "<p class='commentcheeptext'>".$row['cheep_text']."</p><br>";
+        		while ($row = mysqli_fetch_assoc($result)){
+                 		echo "<p class='commentname'>".$row['firstname']." ".$row['lastname']."</p>".
+			     	"<p class='commentsuffix'> @".$row['username']." - ".$row['created_date']."</p>".
+			     	"<p class='commentcheeptext'>".$row['cheep_text']."</p><br>";
 			}
-                }
-		mysqli_close($db);
-		echo "</div></div>";
+		}
+		echo "</div>";
+	}
+	mysqli_close($db);
+	echo "</div>";
 
 ?>
 </div>
