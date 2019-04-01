@@ -88,7 +88,7 @@
 <!-- searching result div -->
 <?php
 	if (isset($_SESSION['user_id'])){
-		$query - '';	
+			
 		if (!isset($_GET['ma_text']) && !isset($_GET['ma_user'])) {
 
 		     // compile query when neither filter is set
