@@ -1,8 +1,8 @@
 
 <?php
- 	$h = "pearl.ils.unc.edu";
-        $u = "webdb_jhe18";
-        $p = "jinls760";
+ 	$h = "pearledu";
+        $u = "webdb_";
+        $p = "webdb_";
         $dbname = "webdb_jhe18";
         $db  = mysqli_connect($h, $u, $p, $dbname);
         if (mysqli_connect_errno()) {
