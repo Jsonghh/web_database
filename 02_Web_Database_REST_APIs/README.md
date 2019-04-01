@@ -11,7 +11,7 @@ Build tables to host authentication and content information
 * [Load Data](https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/bulk.sql)
 
 
-### Function APIs
+### Function(RESTful) APIs
 Under session control, I used input components in forms to get and post information from the users.
 Data in the database is represented on the webpage in a infromatic manner based on user's inputs.
 In the following are major functions of the website.
