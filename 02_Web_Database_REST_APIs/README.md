@@ -1,7 +1,7 @@
 # Web Database & REST APIs
 
 ### User Portal and Database Demo
-<img src="https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/homepage.png" width="630" height="700" alt="homepage"/><br>
+<img src="https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/homepage.png" width="600" height="660" alt="homepage"/><br>
 
 ![database](https://github.com/Jsonghh/web_database/blob/master/02_Web_Database_REST_APIs/demos/database_demo.png)
 
