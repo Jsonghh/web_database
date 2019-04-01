@@ -1,0 +1,64 @@
+.greeting {
+  position:relative;
+  left:350px;
+}
+
+.inputpost {
+  width: 450px;
+  height: 30px;
+  
+}
+
+.postbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.secontent {
+  border: solid;
+  border-color: #bcd8bd;
+}
+
+.commentname {
+  margin: 10px;
+}
+
+.commentsuffix {
+  margin: 10px;
+}
+
+.commentcheeptext {
+  margin: 10px;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.fil_cheep {
+  width: 180px;  
+}
+
+.seres {
+  position: relative;
+  left: 90px;
+  display: inline-grid;  
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
