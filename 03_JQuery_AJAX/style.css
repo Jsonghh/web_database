@@ -1,0 +1,55 @@
+#inbtn {
+    margin-left: 80;
+    margin-top: 10;
+}
+
+#title {
+    position: absolute;
+    left: 400;
+}
+
+
+#A {
+    border: solid;
+    border-color: grey;
+    padding: 20;
+    width: 500;
+    margin-left: 180;
+    margin-top: 55;
+    position: absolute;
+}
+
+
+#B {
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    padding: 10; 
+    margin-top: 55;
+    margin-left: 28;
+    width: 130;
+    height: 40;
+    left: 0;
+    
+}
+
+#C {
+    position: absolute;
+    margin-top: 160;
+    border: solid;
+    border-color: grey;
+    padding: 0 20 20;
+    width: 130;
+
+}
+
+
+#D {
+    position: absolute;
+    border: solid;
+    border-color: grey;
+    margin-left: 730;
+    margin-top: 55;   
+    padding: 0 20 20;
+    width: 200;
+}
